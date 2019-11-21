@@ -1,8 +1,9 @@
 Package: PCMBaseCpp
 Type: Package
 Title: Fast Likelihood Calculation for Phylogenetic Comparative Models
-Version: 0.1.6
+Version: 0.1.7
 Authors@R: c(person("Venelin", "Mitov", email = "vmitov@gmail.com",
+                 comment = '<a href="https://venelin.github.io">venelin.github.io</a>',
                  role = c("aut", "cre", "cph")))
 Maintainer: Venelin Mitov <vmitov@gmail.com>
 Description: Provides a C++ backend for multivariate phylogenetic comparative
@@ -21,10 +22,11 @@ LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 6.1.1
 ByteCompile: yes
 NeedsCompilation: yes
-URL: https://github.com/venelin/PCMBaseCpp,
-        https://venelin.github.io/PCMBase/
+URL: https://github.com/venelin/PCMBaseCpp, https://venelin.github.io
 BugReports: https://github.com/venelin/PCMBaseCpp/issues
 Repository: CRAN
-Packaged: 2019-11-11 10:37:27 UTC; vmitov
-Author: Venelin Mitov [aut, cre, cph]
-Date/Publication: 2019-11-11 13:30:06 UTC
+VignetteBuilder: knitr, rmarkdown
+Packaged: 2019-11-21 15:18:53 UTC; vmitov
+Author: Venelin Mitov [aut, cre, cph] (<a
+    href="https://venelin.github.io">venelin.github.io</a>)
+Date/Publication: 2019-11-21 16:10:05 UTC
