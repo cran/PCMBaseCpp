@@ -1,6 +1,6 @@
-dd78aff042075f0d638b2bd37038b48e *DESCRIPTION
+dcf9640ee7b93929d8eaad48bcbe660b *DESCRIPTION
 791398180e606a6474290f8c9a4b741b *NAMESPACE
-10927123d5b9c666ed2971076a7caebe *NEWS.md
+ed8fa22e8770e5906e99335a1a5f6171 *NEWS.md
 b5bbd9fbd28dec12af4f58a137e441a7 *R/BM.R
 5950d00bf02ab9832136d101e023ff49 *R/BenchmarkRvsCpp.R
 d1feef5343985fe1da420f40260a14f0 *R/DOU.R
@@ -11,7 +11,7 @@ edff52e29b102f1908a2e3d73094e114 *R/JOU.R
 4decfd23fcc8b62eb5a5b37905cfd38c *R/Utilities.R
 b04f5ab8cfd8d951c10f2682ed1b8c65 *R/White.R
 eff61ef42f6c1bf2d8bb7b9e44e75434 *R/zzz.R
-62a01fb0406c2f25947b879d3b581505 *README.md
+a9b0a84acfb2ecd97b1bc1f738bde6c4 *README.md
 d8226f9ee06f5a009e75cee8c103d66c *build/vignette.rds
 27efda15392a0a349f829b234b9ee82d *data/benchmarkData.rda
 ac72b62ebb2aed54f21eb2959376e887 *data/benchmarkResults.rda
@@ -19,7 +19,7 @@ ac72b62ebb2aed54f21eb2959376e887 *data/benchmarkResults.rda
 7447dc8b53ff24cc7464b844508bb980 *inst/CITATION
 5e00c2e985103cb95010e7d1361d5af1 *inst/doc/PCMBaseCpp.R
 11376cbd0812cfa38a170bfc6948c7ff *inst/doc/PCMBaseCpp.Rmd
-a17afb5c1b4e7827e26747ef6ba70c82 *inst/doc/PCMBaseCpp.html
+c025727ab4f552d7c3d40fed253f15dc *inst/doc/PCMBaseCpp.html
 9e5ade85941eb5b5ea19a40bef2906b4 *man/BenchmarkRvsCpp.Rd
 8f2955fc8d099a624e30f6b500f3b79e *man/MiniBenchmarkRvsCpp.Rd
 3fa76dd061067567fddc22f82c337c9e *man/PCListInt.Rd
@@ -31,11 +31,11 @@ e6a707aec698656b62f48d66cef41e7f *man/benchmarkData.Rd
 4d24cd248e455d34be3462d8b9c6e395 *man/benchmarkResults.Rd
 1f3e82e2e19bd01e46e30307acc73376 *man/benchmarkResultsNoTransform.Rd
 998a8128545d8d8bea74041938d3412f *src/Makevars
-9325be12054edccf58907fac6ab0ae3a *src/QuadraticPoly.h
-4d56e5d4166015ca9219c55b1af31d46 *src/QuadraticPoly1D.h
+f369ccec3088e789b4e5f960a90838e7 *src/QuadraticPoly.h
+33f45841d7f58a3beaecdec91f01d41c *src/QuadraticPoly1D.h
 fd41b57ff3f8b3814827a788c7a7d8a3 *src/QuadraticPolyBM.h
 e84840acf800425e6eb5f08629c3d357 *src/QuadraticPolyBM1D.h
-daaad4c89d37827e9b3be6e42c99e5f3 *src/QuadraticPolyCommon.h
+7e8715b93389f43033f994a0bea1f3c8 *src/QuadraticPolyCommon.h
 ef27f0db662fe5205493cb120f27fb9a *src/QuadraticPolyDOU.h
 5141adc67dddd6d69f95d18f0773da52 *src/QuadraticPolyJOU.h
 17f1680ab61484c7b9a2c9de5fe90dac *src/QuadraticPolyMixedGaussian.h
@@ -44,7 +44,7 @@ ef27f0db662fe5205493cb120f27fb9a *src/QuadraticPolyDOU.h
 0c9b3a2e4aaef8f128db8e9d8515ebac *src/QuadraticPolyOU1D.h
 69b77c82dee81fecd090cec56a3e3792 *src/QuadraticPolyWhite.h
 9a4cb2a2bf09d54342c0493764f318d6 *src/Rcpp.cpp
-e576046caab41325f64c629ad540a8aa *src/SPLITT.h
+1bab4428ce663436fae372970bbe3236 *src/SPLITT.h
 43fb18aaceb29b77d58cdd4f25ec33a9 *tests/testthat.R
 1c3c2f980f8ddd3ab28a90e577d3d174 *tests/testthat/test-BM.R
 5630f33dc5c090d402287bc4b5c7c792 *tests/testthat/test-BenchmarkRvsCpp.R
