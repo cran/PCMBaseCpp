@@ -1,7 +1,7 @@
-## ---- include = FALSE----------------------------------------------------
+## ---- include = FALSE---------------------------------------------------------
 knitr::opts_chunk$set(echo = TRUE)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(PCMBase)
 library(PCMBaseCpp)
 
@@ -19,7 +19,7 @@ system.time(llCpp <- PCMLik(
 print(llR)
 print(llCpp)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 logLikFunR <- PCMCreateLikelihood(
   X = PCMBaseTestObjects$traits.ab.123, 
   tree = PCMBaseTestObjects$tree.ab,
@@ -55,7 +55,7 @@ print(llR)
 print(llCpp)
 print(llCpp2)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 metaIR <- PCMInfo(
   X = PCMBaseTestObjects$traits.ab.123, 
   tree = PCMBaseTestObjects$tree.ab,
@@ -81,7 +81,7 @@ system.time(llCpp <- PCMLik(
 print(llR)
 print(llCpp)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 logLikFunR <- PCMCreateLikelihood(
   X = PCMBaseTestObjects$traits.ab.123, 
   tree = PCMBaseTestObjects$tree.ab,
