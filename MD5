@@ -1,6 +1,6 @@
-84f644a02ec8d82e0f5398fbb89d2010 *DESCRIPTION
+81d5561bf28f38a68f0ebc9edfdcacdc *DESCRIPTION
 791398180e606a6474290f8c9a4b741b *NAMESPACE
-b2150ebfea49062c92a17759e10d0226 *NEWS.md
+2d8e204a589eee2fb5eb9a6fbee530f8 *NEWS.md
 b5bbd9fbd28dec12af4f58a137e441a7 *R/BM.R
 0ffe6190aafd2fae2a2c30756634c2e8 *R/BenchmarkRvsCpp.R
 d1feef5343985fe1da420f40260a14f0 *R/DOU.R
@@ -11,7 +11,7 @@ edff52e29b102f1908a2e3d73094e114 *R/JOU.R
 4decfd23fcc8b62eb5a5b37905cfd38c *R/Utilities.R
 b04f5ab8cfd8d951c10f2682ed1b8c65 *R/White.R
 eff61ef42f6c1bf2d8bb7b9e44e75434 *R/zzz.R
-92e2baf5c194cebbba1b3f2f835d3a4b *README.md
+42135a6f104a7de4bcfa92ef63ec8a0a *README.md
 6bf4b3c9d430e6691559dced6885c78d *build/vignette.rds
 27efda15392a0a349f829b234b9ee82d *data/benchmarkData.rda
 ac72b62ebb2aed54f21eb2959376e887 *data/benchmarkResults.rda
@@ -19,7 +19,7 @@ ac72b62ebb2aed54f21eb2959376e887 *data/benchmarkResults.rda
 447a3afaa952251cc3d18864cdba9cde *inst/CITATION
 28a0eec459ae271fb4944da7dd46b596 *inst/doc/PCMBaseCpp.R
 11376cbd0812cfa38a170bfc6948c7ff *inst/doc/PCMBaseCpp.Rmd
-d003805688270e86fd004344f8d90866 *inst/doc/PCMBaseCpp.html
+a7496542e067301833b67d335c7d8a9a *inst/doc/PCMBaseCpp.html
 7ed033d683d989021b7e327b77f87461 *man/BenchmarkRvsCpp.Rd
 97011f6a8bda0fe67f8f3ba6e4b88e16 *man/MiniBenchmarkRvsCpp.Rd
 3fa76dd061067567fddc22f82c337c9e *man/PCListInt.Rd
@@ -44,7 +44,7 @@ ef27f0db662fe5205493cb120f27fb9a *src/QuadraticPolyDOU.h
 0c9b3a2e4aaef8f128db8e9d8515ebac *src/QuadraticPolyOU1D.h
 69b77c82dee81fecd090cec56a3e3792 *src/QuadraticPolyWhite.h
 9a4cb2a2bf09d54342c0493764f318d6 *src/Rcpp.cpp
-1bab4428ce663436fae372970bbe3236 *src/SPLITT.h
+92658ec26b814888d77f9f47760e7593 *src/SPLITT.h
 43fb18aaceb29b77d58cdd4f25ec33a9 *tests/testthat.R
 1c3c2f980f8ddd3ab28a90e577d3d174 *tests/testthat/test-BM.R
 5630f33dc5c090d402287bc4b5c7c792 *tests/testthat/test-BenchmarkRvsCpp.R

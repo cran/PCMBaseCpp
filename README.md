@@ -13,8 +13,8 @@ This is a fast C++ backend for the
 
 # Installation
 
-The package needs a C++ 11 compiler and Rcpp to be installed in you
-R-environment. Once this is done, you can install the most recent
+The package needs a C++ 11 or later compiler and Rcpp to be installed in
+you R-environment. Once this is done, you can install the most recent
 version of the package from github:
 
 ``` r

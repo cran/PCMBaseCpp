@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
-<meta name="date" content="2025-04-27" />
+<meta name="date" content="2025-05-04" />
 
 <title>Getting started with the PCMBaseCpp R-package</title>
 
@@ -339,7 +339,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 <h1 class="title toc-ignore">Getting started with the PCMBaseCpp
 R-package</h1>
-<h4 class="date">2025-04-27</h4>
+<h4 class="date">2025-05-04</h4>
 
 
 <div id="TOC">
@@ -390,14 +390,14 @@ argument of <code>PCMLik</code> and/or
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>  <span class="at">tree =</span> PCMBaseTestObjects<span class="sc">$</span>tree.ab,</span>
 <span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a>  <span class="at">model =</span> PCMBaseTestObjects<span class="sc">$</span>model_MixedGaussian_ab))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.068   0.001   0.072</code></pre>
+##   0.071   0.000   0.072</code></pre>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">system.time</span>(llCpp <span class="ot">&lt;-</span> <span class="fu">PCMLik</span>(</span>
 <span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>  <span class="at">X =</span> PCMBaseTestObjects<span class="sc">$</span>traits.ab<span class="fl">.123</span>, </span>
 <span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>  <span class="at">tree =</span> PCMBaseTestObjects<span class="sc">$</span>tree.ab,</span>
 <span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>  <span class="at">model =</span> PCMBaseTestObjects<span class="sc">$</span>model_MixedGaussian_ab, </span>
 <span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a>  <span class="at">metaI =</span> PCMInfoCpp))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.004   0.000   0.006</code></pre>
+##   0.005   0.000   0.004</code></pre>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">print</span>(llR)</span></code></pre></div>
 <pre><code>## [1] -206.4146
 ## attr(,&quot;X0&quot;)
@@ -433,13 +433,13 @@ argument of <code>PCMLik</code> and/or
 <span id="cb11-25"><a href="#cb11-25" tabindex="-1"></a></span>
 <span id="cb11-26"><a href="#cb11-26" tabindex="-1"></a><span class="fu">system.time</span>(llR <span class="ot">&lt;-</span> <span class="fu">logLikFunR</span>(randParam))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.064   0.000   0.063</code></pre>
+##   0.059   0.000   0.060</code></pre>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">system.time</span>(llCpp <span class="ot">&lt;-</span> <span class="fu">logLikFunCpp</span>(randParam))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.003   0.000   0.003</code></pre>
+##   0.003   0.000   0.002</code></pre>
 <div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">system.time</span>(llCpp2 <span class="ot">&lt;-</span> <span class="fu">logLikFunCpp2</span>(randParam))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.002   0.000   0.002</code></pre>
+##   0.002   0.000   0.001</code></pre>
 <div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">print</span>(llR)</span></code></pre></div>
 <pre><code>## [1] -598.092
 ## attr(,&quot;X0&quot;)
@@ -475,14 +475,14 @@ evaluations, e.g. during model inference:</p>
 <span id="cb23-14"><a href="#cb23-14" tabindex="-1"></a>  <span class="at">model =</span> PCMBaseTestObjects<span class="sc">$</span>model_MixedGaussian_ab, </span>
 <span id="cb23-15"><a href="#cb23-15" tabindex="-1"></a>  <span class="at">metaI =</span> metaIR))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.057   0.000   0.058</code></pre>
+##   0.059   0.000   0.058</code></pre>
 <div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="fu">system.time</span>(llCpp <span class="ot">&lt;-</span> <span class="fu">PCMLik</span>(</span>
 <span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a>  <span class="at">X =</span> PCMBaseTestObjects<span class="sc">$</span>traits.ab<span class="fl">.123</span>, </span>
 <span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>  <span class="at">tree =</span> PCMBaseTestObjects<span class="sc">$</span>tree.ab,</span>
 <span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a>  <span class="at">model =</span> PCMBaseTestObjects<span class="sc">$</span>model_MixedGaussian_ab, </span>
 <span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a>  <span class="at">metaI =</span> metaICpp))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.001   0.000   0.002</code></pre>
+##   0.001   0.000   0.001</code></pre>
 <div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="fu">print</span>(llR)</span></code></pre></div>
 <pre><code>## [1] -206.4146
 ## attr(,&quot;X0&quot;)
@@ -509,7 +509,7 @@ evaluations, e.g. during model inference:</p>
 <span id="cb31-16"><a href="#cb31-16" tabindex="-1"></a>  <span class="at">model =</span> PCMBaseTestObjects<span class="sc">$</span>model_MixedGaussian_ab, </span>
 <span id="cb31-17"><a href="#cb31-17" tabindex="-1"></a>  <span class="at">metaI =</span> metaIR))</span></code></pre></div>
 <pre><code>##    user  system elapsed 
-##   0.059   0.000   0.058</code></pre>
+##   0.059   0.000   0.059</code></pre>
 <div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" tabindex="-1"></a><span class="fu">system.time</span>(llCpp <span class="ot">&lt;-</span> <span class="fu">PCMLik</span>(</span>
 <span id="cb33-2"><a href="#cb33-2" tabindex="-1"></a>  <span class="at">X =</span> PCMBaseTestObjects<span class="sc">$</span>traits.ab<span class="fl">.123</span>, </span>
 <span id="cb33-3"><a href="#cb33-3" tabindex="-1"></a>  <span class="at">tree =</span> PCMBaseTestObjects<span class="sc">$</span>tree.ab,</span>
